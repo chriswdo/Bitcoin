@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.design.pattern.name.bridge.example01.Circle"/>
+<fullyQualifiedTypeName name="org.design.pattern.name.factoryP.example01.pojo.Circle"/>
+<fullyQualifiedTypeName name="org.design.pattern.name.factoryP.example01.pojo.Rectangle"/>
+<fullyQualifiedTypeName name="org.design.pattern.name.factoryP.example01.pojo.Square"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

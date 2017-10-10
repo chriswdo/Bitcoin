@@ -1,0 +1,564 @@
+2017-06-20 15:08:01,878 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: study.wd.node:root:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\pom.xml.
+2017-06-20 15:08:04,278 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java.base:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java.base\pom.xml.
+2017-06-20 15:08:04,364 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:design.pattern:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\design.pattern\pom.xml.
+2017-06-20 15:08:04,441 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:cleancode:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\cleancode\pom.xml.
+2017-06-20 15:08:05,304 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cleancode/src/main/java
+2017-06-20 15:08:05,305 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cleancode/src/test/java
+2017-06-20 15:08:05,381 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java.base/src/main/java
+2017-06-20 15:08:05,382 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java.base/src/test/java
+2017-06-20 15:08:05,448 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /design.pattern/src/main/java
+2017-06-20 15:08:05,449 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /design.pattern/src/test/java
+2017-06-20 15:08:05,503 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 4 sec
+2017-06-20 15:08:06,933 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:06,933 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 15:08:06,936 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:06,937 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 15:08:07,537 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:07,537 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 15:08:07,539 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:07,539 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 15:08:07,681 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:07,681 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-06-20 15:08:07,683 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:07,683 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-06-20 15:08:24,935 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:24,935 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 15:08:24,937 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:24,937 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 15:08:24,955 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:24,956 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 15:08:24,958 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:24,958 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 15:08:24,967 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:24,967 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-06-20 15:08:24,968 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 15:08:24,969 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-06-20 16:42:51,854 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:42:51,854 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:42:51,855 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:42:51,855 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:42:55,136 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:42:55,137 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:42:55,138 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:42:55,138 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:43:00,744 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:43:00,744 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:43:00,746 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:43:00,747 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:43:05,781 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:43:05,781 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:43:05,782 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:43:05,782 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:43:09,047 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:43:09,047 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:43:09,050 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:43:09,050 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:44:41,457 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:44:41,457 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:44:41,459 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:44:41,459 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:44:46,193 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:44:46,194 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:44:46,195 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:44:46,195 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:45:10,591 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:45:10,591 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:45:10,593 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:45:10,594 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:45:55,904 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:45:55,905 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:45:55,906 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:45:55,907 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:46:05,074 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:05,075 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:46:05,076 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:05,077 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:46:15,445 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:15,445 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:46:15,447 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:15,447 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:46:29,289 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: design.pattern/target/classes/org/design/pattern/name/bridge/example01 [in root] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:486) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:600) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:52) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:71) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:80) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:129) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:344) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:301) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$18(WorkbenchPage.java:283) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:201) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:245) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:242) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:711) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:639) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:106) [org.eclipse.e4.ui.workbench.swt_0.13.0.v20150504-0621.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$1.handleEvent(ContributedPartRenderer.java:63) [org.eclipse.e4.ui.workbench.renderers.swt_0.13.0.v20150901-1347.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1481) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1444) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2877) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Widget.java:2477) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Control.java:5323) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Canvas.java:456) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4746) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1098) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3356) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1058) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.setFocus(AbstractTextEditor.java:6221) [org.eclipse.ui.workbench.texteditor_3.9.100.v20141023-1946.jar:na]
+	at org.eclipse.ui.texteditor.StatusTextEditor.setFocus(StatusTextEditor.java:122) [org.eclipse.ui.workbench.texteditor_3.9.100.v20141023-1946.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.setFocus(JavaEditor.java:2395) [org.eclipse.jdt.ui_3.11.1.v20150827-1306.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.ClassFileEditor.setFocus(ClassFileEditor.java:970) [org.eclipse.jdt.ui_3.11.1.v20150827-1306.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:204) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_80]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_80]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:258) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:107) [org.eclipse.e4.core.contexts_1.4.0.v20150828-0818.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:775) [org.eclipse.e4.ui.workbench.swt_0.13.0.v20150504-0621.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$2.setFocus(ContributedPartRenderer.java:102) [org.eclipse.e4.ui.workbench.renderers.swt_0.13.0.v20150901-1347.jar:na]
+	at org.eclipse.swt.custom.CTabItem.setFocus(CTabItem.java:332) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setFocus(CTabFolder.java:2602) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1053) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3859) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3146) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3103) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1318) [org.eclipse.e4.ui.workbench.renderers.swt_0.13.0.v20150901-1347.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72) [org.eclipse.e4.ui.workbench.renderers.swt_0.13.0.v20150901-1347.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40) [org.eclipse.e4.ui.services_1.2.0.v20150422-0725.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211) [org.eclipse.e4.ui.workbench.swt_0.13.0.v20150504-0621.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36) [org.eclipse.e4.ui.services_1.2.0.v20150422-0725.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197) [org.eclipse.equinox.event_1.3.100.v20140115-1647.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197) [org.eclipse.equinox.event_1.3.100.v20140115-1647.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1) [org.eclipse.equinox.event_1.3.100.v20140115-1647.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [org.eclipse.osgi_3.10.101.v20150820-1432.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [org.eclipse.osgi_3.10.101.v20150820-1432.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135) [org.eclipse.equinox.event_1.3.100.v20140115-1647.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78) [org.eclipse.equinox.event_1.3.100.v20140115-1647.jar:na]
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39) [org.eclipse.equinox.event_1.3.100.v20140115-1647.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85) [org.eclipse.e4.ui.services_1.2.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374) [org.eclipse.emf.common_2.11.0.v20150805-0538.jar:na]
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171) [org.eclipse.e4.ui.model.workbench_1.1.100.v20150407-1430.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:494) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:458) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:724) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1163) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3234) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3149) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3131) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3126) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3090) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3080) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:541) [org.eclipse.ui.ide_3.11.0.v20150825-2158.jar:na]
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:500) [org.eclipse.ui.ide_3.11.0.v20150825-2158.jar:na]
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.execute(OpenResourceHandler.java:132) [org.eclipse.ui.ide_3.11.0.v20150825-2158.jar:na]
+	at org.eclipse.ui.internal.ide.handlers.OpenResourceHandler.run(OpenResourceHandler.java:187) [org.eclipse.ui.ide_3.11.0.v20150825-2158.jar:na]
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:299) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at sun.reflect.GeneratedMethodAccessor62.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_80]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_80]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234) [org.eclipse.e4.core.di_1.5.0.v20150421-2214.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132) [org.eclipse.e4.core.contexts_1.4.0.v20150828-0818.jar:na]
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152) [org.eclipse.e4.core.commands_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493) [org.eclipse.core.commands_3.7.0.v20150422-0725.jar:na]
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486) [org.eclipse.core.commands_3.7.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210) [org.eclipse.e4.core.commands_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286) [org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507) [org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558) [org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378) [org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324) [org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86) [org.eclipse.e4.ui.bindings_0.11.0.v20150422-0725.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1164) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1160) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1581) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4795) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4676) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767) [org.eclipse.swt.win32.win32.x86_64_3.104.1.v20150825-0743.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127) [org.eclipse.e4.ui.workbench.swt_0.13.0.v20150504-0621.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337) [org.eclipse.core.databinding.observable_1.5.0.v20150422-0725.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018) [org.eclipse.e4.ui.workbench.swt_0.13.0.v20150504-0621.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) [org.eclipse.e4.ui.workbench_1.3.0.v20150531-1948.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337) [org.eclipse.core.databinding.observable_1.5.0.v20150422-0725.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.107.0.v20150825-2206.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139) [org.eclipse.ui.ide.application_1.1.0.v20150422-0725.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.300.v20150423-1356.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) [org.eclipse.osgi_3.10.101.v20150820-1432.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) [org.eclipse.osgi_3.10.101.v20150820-1432.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380) [org.eclipse.osgi_3.10.101.v20150820-1432.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235) [org.eclipse.osgi_3.10.101.v20150820-1432.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_80]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_80]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_80]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_80]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
+2017-06-20 16:46:53,728 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:53,728 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:46:53,729 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:53,729 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:46:56,656 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:56,656 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:46:56,659 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:56,659 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:46:57,733 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:57,734 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:46:57,735 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:46:57,735 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:07,903 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:07,904 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:07,906 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:07,906 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:18,444 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:18,444 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:18,446 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:18,447 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:30,901 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:30,901 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:30,904 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:30,904 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:41,765 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:41,766 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:41,769 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:41,769 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:44,193 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:44,193 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:44,194 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:44,194 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:46,327 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:46,328 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:46,331 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:46,331 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:47:52,872 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:52,873 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:47:52,875 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:47:52,875 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:08,223 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:08,224 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:08,225 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:08,225 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:13,208 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:13,208 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:13,210 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:13,210 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:15,504 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:15,504 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:15,506 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:15,506 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:19,495 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:19,496 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:19,499 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:19,500 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:22,695 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:22,695 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:22,696 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:22,696 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:24,816 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:24,816 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:24,818 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:24,818 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:32,573 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:32,574 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:32,575 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:32,575 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:48:44,566 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:44,566 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:48:44,567 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:48:44,567 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:50:29,304 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:50:29,304 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 16:50:29,306 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:50:29,306 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 16:50:34,719 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:50:34,719 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 16:50:34,720 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:50:34,720 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 16:51:12,889 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:12,890 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:51:12,891 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:12,891 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:51:13,998 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:13,998 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:51:14,000 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:14,000 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:51:23,090 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:23,090 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:51:23,092 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:51:23,092 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:54:09,889 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:09,889 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 16:54:09,890 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:09,890 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 16:54:09,985 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:09,986 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:54:09,988 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:09,988 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:54:10,039 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:10,039 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-06-20 16:54:10,041 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:10,041 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-06-20 16:54:22,805 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:22,806 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:54:22,807 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:54:22,807 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:55:24,742 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:55:24,743 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:55:24,743 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:55:24,744 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:55:35,116 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:55:35,116 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 16:55:35,118 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:55:35,118 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 16:56:28,441 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:56:28,441 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 16:56:28,442 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 16:56:28,442 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 16:59:46,718 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: wd:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 16:59:46,918 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java8/src/main/java
+2017-06-20 16:59:46,919 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java8/src/test/java
+2017-06-20 16:59:46,964 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-06-20 17:00:19,873 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: wd:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 17:00:19,926 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:00:19,926 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:00:19,928 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:00:19,928 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:01:26,854 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:26,854 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 17:01:26,856 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:26,856 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 17:01:27,044 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:27,044 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 17:01:27,045 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:27,046 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 17:01:27,114 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:27,115 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-06-20 17:01:27,116 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:27,116 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-06-20 17:01:27,366 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:27,366 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:01:27,368 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:27,369 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:01:49,513 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:49,513 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:01:49,515 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:01:49,516 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:03:33,463 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: study.wd.node:root:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\pom.xml.
+2017-06-20 17:03:34,047 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:cleancode:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\cleancode\pom.xml.
+2017-06-20 17:03:34,090 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:design.pattern:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\design.pattern\pom.xml.
+2017-06-20 17:03:34,146 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java.base:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java.base\pom.xml.
+2017-06-20 17:03:34,200 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: wd:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 17:03:34,754 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,754 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 17:03:34,756 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,756 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 17:03:34,772 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,772 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 17:03:34,773 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,773 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 17:03:34,790 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,790 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-06-20 17:03:34,792 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,792 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-06-20 17:03:34,949 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,950 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:03:34,952 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:03:34,952 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:03:45,763 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-20 17:03:45,888 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: study.wd.node:root:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\pom.xml.
+2017-06-20 17:03:46,376 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:cleancode:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\cleancode\pom.xml.
+2017-06-20 17:03:46,415 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:design.pattern:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\design.pattern\pom.xml.
+2017-06-20 17:03:46,457 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java.base:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java.base\pom.xml.
+2017-06-20 17:03:46,493 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: wd:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 17:03:46,774 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cleancode/src/main/java
+2017-06-20 17:03:46,775 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cleancode/src/test/java
+2017-06-20 17:03:46,831 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /design.pattern/src/main/java
+2017-06-20 17:03:46,832 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /design.pattern/src/test/java
+2017-06-20 17:03:46,886 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java.base/src/main/java
+2017-06-20 17:03:46,887 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java.base/src/test/java
+2017-06-20 17:03:47,122 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-20 17:04:38,624 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-20 17:04:38,712 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: study.wd.node:root:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\pom.xml.
+2017-06-20 17:04:39,120 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:cleancode:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\cleancode\pom.xml.
+2017-06-20 17:04:39,157 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:design.pattern:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\design.pattern\pom.xml.
+2017-06-20 17:04:39,198 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java.base:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java.base\pom.xml.
+2017-06-20 17:04:39,260 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: wd:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 17:04:39,872 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cleancode/src/main/java
+2017-06-20 17:04:39,873 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cleancode/src/test/java
+2017-06-20 17:04:39,911 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /design.pattern/src/main/java
+2017-06-20 17:04:39,911 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /design.pattern/src/test/java
+2017-06-20 17:04:39,947 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java.base/src/main/java
+2017-06-20 17:04:39,948 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java.base/src/test/java
+2017-06-20 17:04:40,094 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-20 17:04:47,983 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:47,984 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-06-20 17:04:47,986 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:47,986 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-06-20 17:04:48,094 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:48,094 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-06-20 17:04:48,095 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:48,095 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-06-20 17:04:48,154 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:48,155 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-06-20 17:04:48,156 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:48,156 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-06-20 17:04:48,360 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:48,360 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:04:48,361 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:04:48,361 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:08:31,042 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: wd:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 17:08:31,075 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:08:31,075 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:08:31,076 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:08:31,076 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:09:30,253 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java8:0.0.1-SNAPSHOT @ E:\work\workspace_8\java8\pom.xml.
+2017-06-20 17:09:30,381 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:09:30,381 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\main\resources
+2017-06-20 17:09:30,382 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:09:30,383 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_8\java8\src\test\resources
+2017-06-20 17:11:05,874 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java8:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java8\pom.xml.
+2017-06-20 17:11:06,116 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java8/src/main/java
+2017-06-20 17:11:06,117 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java8/src/test/java
+2017-06-20 17:11:06,188 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-06-20 17:11:10,418 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:11:10,418 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java8\src\main\resources
+2017-06-20 17:11:10,419 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:11:10,420 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java8\src\test\resources
+2017-06-20 17:11:30,249 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:11:30,249 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java8\src\main\resources
+2017-06-20 17:11:30,252 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 17:11:30,252 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java8\src\test\resources
+2017-09-25 18:35:44,363 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:cleancode:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\cleancode\pom.xml.
+2017-09-25 18:35:44,579 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:design.pattern:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\design.pattern\pom.xml.
+2017-09-25 18:35:44,740 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java.base:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java.base\pom.xml.
+2017-09-25 18:35:44,889 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:java8:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\java8\pom.xml.
+2017-09-25 18:35:44,917 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: study.wd.node:root:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\pom.xml.
+2017-09-26 11:00:43,581 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' E:\work\workspace_root\root\algorithm\pom.xml
+2017-09-26 11:00:44,866 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:algorithm:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\algorithm\pom.xml.
+2017-09-26 11:00:45,662 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /algorithm/src/main/java
+2017-09-26 11:00:45,665 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /algorithm/src/test/java
+2017-09-26 11:00:45,737 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2017-09-26 15:32:39,422 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:39,423 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:32:39,426 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:39,426 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:32:39,717 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:39,718 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\main\resources
+2017-09-26 15:32:39,721 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:39,721 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\cleancode\src\test\resources
+2017-09-26 15:32:40,059 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:40,060 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\main\resources
+2017-09-26 15:32:40,062 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:40,062 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\design.pattern\src\test\resources
+2017-09-26 15:32:40,368 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:40,369 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\main\resources
+2017-09-26 15:32:40,371 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:40,371 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java.base\src\test\resources
+2017-09-26 15:32:41,081 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:41,081 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java8\src\main\resources
+2017-09-26 15:32:41,084 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:32:41,084 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\java8\src\test\resources
+2017-09-26 15:32:41,288 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: study.wd.node:root:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\pom.xml.
+2017-09-26 15:32:42,023 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: study.wd.node:algorithm:0.0.1-SNAPSHOT @ E:\work\workspace_root\root\algorithm\pom.xml.
+2017-09-26 15:35:19,277 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:35:19,277 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:35:19,279 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:35:19,279 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:46:49,874 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:46:49,874 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:46:49,875 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:46:49,876 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:47:49,183 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:47:49,183 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:47:49,186 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:47:49,186 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:48:52,932 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:48:52,932 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:48:52,933 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:48:52,933 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:49:29,245 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:49:29,245 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:49:29,247 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:49:29,247 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:49:48,789 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:49:48,790 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:49:48,791 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:49:48,791 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:50:22,763 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:50:22,763 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:50:22,764 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:50:22,765 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:50:35,471 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:50:35,471 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:50:35,472 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:50:35,472 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:51:28,868 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:51:28,869 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:51:28,870 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:51:28,870 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:51:47,691 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:51:47,692 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:51:47,694 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:51:47,694 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:52:04,388 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:52:04,388 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:52:04,390 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:52:04,390 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:52:31,066 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:52:31,066 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:52:31,068 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:52:31,068 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:53:09,946 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:53:09,946 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:53:09,947 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:53:09,947 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:53:46,592 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:53:46,592 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:53:46,593 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:53:46,594 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 15:59:16,320 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:59:16,320 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 15:59:16,321 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 15:59:16,321 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources
+2017-09-26 16:13:15,248 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 16:13:15,249 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\main\resources
+2017-09-26 16:13:15,250 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-26 16:13:15,250 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\work\workspace_root\root\algorithm\src\test\resources

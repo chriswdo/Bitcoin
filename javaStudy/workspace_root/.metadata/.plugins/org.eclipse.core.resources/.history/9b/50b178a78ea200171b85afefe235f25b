@@ -1,0 +1,44 @@
+package org.algorithm.sort;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 基数排序
+ * @author wd
+ *
+ */
+public class RadixSort {
+	
+	public static void sort(int [] ints ){
+		int j=1;
+		while(true){
+			
+		}
+	}
+	
+	public static int[] sortByBin(int[]ints,int bin){
+		List[] bucket = new ArrayList [10];
+		int flag = 0;
+		for(int temp :ints){
+			int res = temp/bin;
+			if(res!=0)flag=res;
+			int remaider = res%10;
+			if(bucket[remaider]==null){
+				bucket[remaider]=new ArrayList<Integer>();
+			}
+			bucket[remaider].add(temp);
+		}
+		if(flag==0)return ints;
+		
+		int[]retInts = new int[ints.length];
+		int j=0;
+		for(List li : bucket){
+			for(Object i : li){
+				retInts[j++]=(Integer) i;
+			}
+		}
+		return retInts;
+	}
+
+}
