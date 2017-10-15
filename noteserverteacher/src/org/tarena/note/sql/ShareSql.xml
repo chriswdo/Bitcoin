@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="org.tarena.note.dao.ShareMapperDao">
+	<insert id="save" parameterType="org.tarena.note.entity.Share" >
+		insert into cn_share  (cn_share_id,cn_share_title,cn_note_id,cn_share_body)
+		 values (#{cn_share_id},#{cn_share_title},#{cn_note_id},#{cn_share_body})
+	</insert>
+	<select id="search" parameterType="string" resultType="org.tarena.note.entity.Share">
+		SELECT *  FROM  cn_share WHERE cn_share_title like  #{title}
+	</select>
+</mapper>
