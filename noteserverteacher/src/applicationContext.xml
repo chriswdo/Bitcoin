@@ -15,7 +15,7 @@
 	<bean id="dbcp" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="username" value="wd">
 		</property>
-		<property name="password" value="wd">
+		<property name="password" value="">
 		</property>
 		<property name="driverClassName" value="com.mysql.jdbc.Driver">
 		</property>
