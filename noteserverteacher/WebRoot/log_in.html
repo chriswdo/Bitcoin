@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" 
 		src="scripts/jquery.min.js">
 </script>
@@ -25,26 +26,26 @@
 				<dl>
 					<dt>
 						<div class='header'>
-							<h3>µÇ&nbsp;Â¼</h3>
+							<h3>ç™»&nbsp;å½•</h3>
 						</div>
 					</dt>
 					<dt></dt>
 					<dt>
 						<div class='letter'>
-							ÓÃ»§Ãû:&nbsp;<input type="text" name="" id="name" tabindex='1'/>
+							ç”¨æˆ·å:&nbsp;<input type="text" name="" id="name" tabindex='1'/>
 							<span id="name_error"></span>
 						</div>
 					</dt>
 					<dt>
 						<div class='letter'>
-							ÃÜ&nbsp;&nbsp;&nbsp;Âë:&nbsp;<input type="password" name="" id="password" tabindex='2'/>
+							å¯†&nbsp;&nbsp;&nbsp;ç :&nbsp;<input type="password" name="" id="password" tabindex='2'/>
 							<span id="pwd_error"></span>
 						</div>
 					</dt>
 					<dt>
 						<div>
-							<input type="button" name="" id="login" value='&nbspµÇ&nbspÂ¼&nbsp' tabindex='3'/>
-							<input type="button" name="" id="sig_in" value='&nbsp×¢&nbsp²á&nbsp' tabindex='4'/>
+							<input type="button" name="" id="login" value='&nbspç™»&nbspå½•&nbsp' tabindex='3'/>
+							<input type="button" name="" id="sig_in" value='&nbspæ³¨&nbspå†Œ&nbsp' tabindex='4'/>
 						</div>
 					</dt>
 				</dl>
@@ -53,37 +54,37 @@
 				<dl>
 					<dt>
 						<div class='header'>
-							<h3>×¢&nbsp;²á</h3>
+							<h3>æ³¨&nbsp;å†Œ</h3>
 						</div>
 					</dt>
 					<dt></dt>
 					<dt>
 						<div class='letter'>
-							ÓÃ»§Ãû:&nbsp;<input type="text" name="" id="regist_username" tabindex='5'/>
-							<div class='warning' id='warning_1'><span>¸ÃÓÃ»§Ãû²»¿ÉÓÃ</span></div>
+							ç”¨æˆ·å:&nbsp;<input type="text" name="" id="regist_username" tabindex='5'/>
+							<div class='warning' id='warning_1'><span>è¯¥ç”¨æˆ·åä¸å¯ç”¨</span></div>
 						</div>
 					</dt>
 					<dt>
 						<div class='letter'>
-							êÇ&nbsp;&nbsp;&nbsp;³Æ:&nbsp;<input type="text" name="" id="nickname" tabindex='6'/>
+							æ˜µ&nbsp;&nbsp;&nbsp;ç§°:&nbsp;<input type="text" name="" id="nickname" tabindex='6'/>
 						</div>
 					</dt>
 					<dt>
 						<div class='letter'>
-							ÃÜ&nbsp;&nbsp;&nbsp;Âë:&nbsp;<input type="password" name="" id="regist_password" tabindex='7'/>
-							<div class='warning' id='warning_2'><span>ÃÜÂë³¤¶È¹ı¶Ì</span></div>
+							å¯†&nbsp;&nbsp;&nbsp;ç :&nbsp;<input type="password" name="" id="regist_password" tabindex='7'/>
+							<div class='warning' id='warning_2'><span>å¯†ç é•¿åº¦è¿‡çŸ­</span></div>
 						</div>
 					</dt>
 					<dt>
 						<div class='password'>
-							&nbsp;&nbsp;&nbsp;È·ÈÏÃÜÂë:&nbsp;<input type="password" name="" id="final_password" tabindex='8'/>
-							<div class='warning' id='warning_3'><span>ÃÜÂëÊäÈë²»Ò»ÖÂ</span></div>
+							&nbsp;&nbsp;&nbsp;ç¡®è®¤å¯†ç :&nbsp;<input type="password" name="" id="final_password" tabindex='8'/>
+							<div class='warning' id='warning_3'><span>å¯†ç è¾“å…¥ä¸ä¸€è‡´</span></div>
 						</div>
 					</dt>
 					<dt>
 						<div>
-							<input type="button" name="" id="regist_button" value='&nbsp×¢&nbsp²á&nbsp' tabindex='9'/>
-							<input type="button" name="" id="back" value='&nbsp·µ&nbsp»Ø&nbsp' tabindex='10'/>
+							<input type="button" name="" id="regist_button" value='&nbspæ³¨&nbspå†Œ&nbsp' tabindex='9'/>
+							<input type="button" name="" id="back" value='&nbspè¿”&nbspå›&nbsp' tabindex='10'/>
 							<script type="text/javascript">
 							function get(e){
 								return document.getElementById(e);
@@ -91,7 +92,7 @@
 							get('sig_in').onclick=function(){
 								get('dl').className='log log_out';
 								get('zc').className='sig sig_in';
-								//TODO Çå³ı×¢²áÄÚÈİ
+								//TODO æ¸…é™¤æ³¨å†Œå†…å®¹
 							}
 							get('back').onclick=function(){
 								get('zc').className='sig sig_out';
