@@ -25,7 +25,7 @@ $(function(){
 	    var base64_msg = Base64.encode(msg);
 	    //����Ϣ����header��������
 	    $.ajax({
-	    	url:"http://localhost:8080/noteserverteacher/user/login.form",
+	    	url:"http://47.93.243.0:8080/noteserverteacher/user/login.form",
 	    	type:"post",
 	    	dataType:"json",
 	    	beforeSend:function(xhr){

@@ -8,7 +8,7 @@
             //TODO �����ݸ�ʽ
             //����ajax����
             $.ajax({
-               url:"http://localhost:8080/noteserverteacher/user/regist.form",
+               url:"http://47.93.243.0:8080/noteserverteacher/user/regist.form",
                data:{"cn_user_name":username,
                			"cn_user_desc":nickname,
                			"cn_user_password":password},

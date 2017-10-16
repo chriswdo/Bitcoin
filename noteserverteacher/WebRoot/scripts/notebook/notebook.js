@@ -3,7 +3,7 @@
 function loadBookList(){
 	     var userId = getCookie("userId");
      $.ajax({
-        url:"http://localhost:8080/noteserverteacher/notebook/loadlist.form",
+        url:"http://47.93.243.0:8080/noteserverteacher/notebook/loadlist.form",
         type:"post",
         data:{"userId":userId},
         dataType:"json",
@@ -59,7 +59,7 @@ function sureAddNoteBook(){
     	}
     	//发送ajax请求
     	$.ajax({
-    		url:"http://localhost:8080/noteserverteacher/notebook/add.form",
+    		url:"http://47.93.243.0:8080/noteserverteacher/notebook/add.form",
     		type:"post",
     		data:{"cn_user_id":userId,
     		         "cn_notebook_name":bookName},
@@ -97,7 +97,7 @@ function loadNotesByBookId(){
 	var bookId = $(this).data("bookId");
 	//发送Ajax请求加载笔记
 	 $.ajax({
-		 url:"http://localhost:8080/noteserverteacher/note/loadlist.form",
+		 url:"http://47.93.243.0:8080/noteserverteacher/note/loadlist.form",
 		 type:"post",
 		 data:{"bookId":bookId},
 		 dataType:"json",

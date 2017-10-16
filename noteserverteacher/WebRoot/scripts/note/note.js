@@ -16,7 +16,7 @@ function sureAddNote(){
     	//TODO �����Ƹ�ʽ
     	//����ajax����
     	$.ajax({
-    		url:"http://localhost:8080/noteserverteacher/note/add.form",
+    		url:"http://47.93.243.0:8080/noteserverteacher/note/add.form",
     		type:"post",
     		data:{"cn_notebook_id":bookId,
     				"cn_user_id":userId,
@@ -65,7 +65,7 @@ function saveAddNote(){
   	    //TODO ��ʽ��飨�Ƿ�Ϊ�գ�
   		//����Ajax����
   		$.ajax({
-  			url:"http://localhost:8080/noteserverteacher/note/update.form",
+  			url:"http://47.93.243.0:8080/noteserverteacher/note/update.form",
   			type:"post",
   			data:{"cn_note_id":noteId,
   					"cn_note_title":noteName,
@@ -98,7 +98,7 @@ function saveAddNote(){
   		var noteId = $(this).data("noteId");
   		//����ajax����,��ݱʼǵ�ID��ȡ�ʼ���Ϣ
   		$.ajax({
-  			url:"http://localhost:8080/noteserverteacher/note/loadnote.form",
+  			url:"http://47.93.243.0:8080/noteserverteacher/note/loadnote.form",
   			type:"post",
   			data:{"noteId":noteId},
   			dataType:"json",
@@ -121,7 +121,7 @@ function saveAddNote(){
   		var noteId = $li.data("noteId");//获取笔记ID
   		//发送ajax请求
   		$.ajax({
-  			url:"http://localhost:8080/noteserverteacher/note/delete.form",
+  			url:"http://47.93.243.0:8080/noteserverteacher/note/delete.form",
   			type:"post",
   			data:{"noteId":noteId},
   			dataType:"json",
@@ -142,7 +142,7 @@ function saveAddNote(){
   		var $li=$("#note_list a[class='checked']").parent();
   		var noteId=$li.data("noteId")
   		$.ajax({
-  			url:"http://localhost:8080/noteserverteacher/note/share.form",
+  			url:"http://47.93.243.0:8080/noteserverteacher/note/share.form",
   			data:{"noteId":noteId},
   			type:"post",
   			dataType:"json",
@@ -162,7 +162,7 @@ function searchNote(){
 	if(code==13){
 		var title=$("#search_note").val().trim();
 		$.ajax({
-			url:"http://localhost:8080/noteserverteacher/note/search.form",
+			url:"http://47.93.243.0:8080/noteserverteacher/note/search.form",
 			data:{"title":title},
 			type:"post",
 			dataType:"json",
