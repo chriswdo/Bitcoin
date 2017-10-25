@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport" />
+    <meta name="renderer" content="webkit">
+    <title>首页</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/uplan.css">
+    <link rel="stylesheet" href="css/uskin.css">
+     <link rel="stylesheet" href="css/iconfont.min.css">
+    <script src="js/require.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="[JS library]"></script>
+      <script type="text/javascript" src="js/selectivizr.min.js"></script>
+      <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+      <script type="text/javascript" src="js/html5shiv.min.js"></script>
+      <script type="text/javascript" src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="up-container-fluid">
+        <div class="u-padding-top20">
+            <div class="u_tab_nav" id="grid_nav">
+                <ul class="u_tab_nav_body">
+                    <li class="active" data-tab="#example_tab1">gridtree
+                    </li>
+                    <li data-tab="#example_tab2">jsonp
+                    </li>
+                    <li data-tab="#example_tab3">增删改查
+                    </li>
+                    <li data-tab="#example_tab4">自定义page
+                    </li>
+                </ul>
+            </div>
+            <div class='u_tabs u-padding-top20'>
+                <div class="u_tab_body active" id="example_tab1">
+                    <table id="grid" class="jqgrid"></table>
+                </div>
+                <div class="u_tab_body" id="example_tab2">
+                    <table id="grid2" class="jqgrid"></table>
+                    <div id="gridPager2"></div>
+                </div>
+                <div class="u_tab_body" id="example_tab3">
+                    <table id="grid3" class="jqgrid"></table>
+                    <div id="gridPager3"></div>
+                </div>
+
+                <div class="u_tab_body" id="example_tab4">
+                    <table id="grid4" class="jqgrid"></table>
+                    <div id="page"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+require(['uskin'], function() {
+    require(["jqGrid"], function(grid) {
+        $(document).ready(function() {
+
+            $('#grid').jqGrid({
+                "url": "data/datatree.json",
+                "colModel": [{
+                    "name": "category_id",
+                    "index": "accounts.account_id",
+                    "sorttype": "int",
+                    "key": true,
+                    "hidden": true,
+                    "width": 50
+                }, {
+                    "name": "name",
+                    "index": "name",
+                    "sorttype": "string",
+                    "label": "Name",
+                    "width": 170
+                }, {
+                    "name": "price",
+                    "index": "price",
+                    "sorttype": "numeric",
+                    "label": "Price",
+                    "width": 90,
+                    "align": "right"
+                }, {
+                    "name": "qty_onhand",
+                    "index": "qty_onhand",
+                    "sorttype": "int",
+                    "label": "Qty",
+                    "width": 90,
+                    "align": "right"
+                }, {
+                    "name": "color",
+                    "index": "color",
+                    "sorttype": "string",
+                    "label": "Color",
+                    "width": 100
+                }, {
+                    "name": "lft",
+                    "hidden": true
+                }, {
+                    "name": "rgt",
+                    "hidden": true
+                }, {
+                    "name": "level",
+                    "hidden": true
+                }, {
+                    "name": "uiicon",
+                    "hidden": true
+                }],
+                "autowidth": true,
+
+
+                "treeGrid": true,
+                "ExpandColumn": "name",
+                "treedatatype": "json",
+                "treeGridModel": "nested",
+                "treeReader": {
+                    "left_field": "lft",
+                    "right_field": "rgt",
+                    "level_field": "level",
+                    "leaf_field": "isLeaf",
+                    "expanded_field": "expanded",
+                    "loaded": "loaded",
+                    "icon_field": "icon"
+                },
+                "datatype": "json",
+            });
+
+
+
+           $("#grid2").jqGrid({
+                    url: 'http://trirand.com/blog/phpjqgrid/examples/jsonp/getjsonp.php?callback=?&qwery=longorders',
+                    mtype: "GET",
+                    datatype: "jsonp",
+                    colModel: [
+
+                        {
+                            label: 'Customer ID',
+                            name: 'CustomerID',
+                            width: 200
+                        }, {
+                            label: 'Order Date',
+                            name: 'OrderDate',
+                            width: 200
+                        }, {
+                            label: 'Freight',
+                            name: 'Freight',
+                            width: 200
+                        }, {
+                            label: 'Ship Name',
+                            name: 'ShipName',
+                            width: 200
+                        }
+                    ],
+                    page: 1,
+                    autowidth: true,
+                    height: 250,
+                    viewrecords: true,
+                    pager: "#gridPager2",
+            });
+
+
+            $("#grid3").jqGrid({
+                url: 'data/data.json',
+                // we set the changes to be made at client side using predefined word clientArray
+                editurl: 'clientArray',
+                datatype: "json",
+                colModel: [{
+                    label: 'Customer ID',
+                    name: 'CustomerID',
+                    width: 75,
+                    //key: true,
+                    editable: true,
+                    editrules: {
+                        required: true
+                    }
+                }, {
+                    label: 'Company Name',
+                    name: 'CompanyName',
+                    width: 140,
+                    editable: true // must set editable to true if you want to make the field editable
+                }, {
+                    label: 'Phone',
+                    name: 'Phone',
+                    width: 100,
+                    editable: true
+                }, {
+                    label: 'Postal Code',
+                    name: 'PostalCode',
+                    width: 80,
+                    editable: true
+                }, {
+                    label: 'City',
+                    name: 'City',
+                    width: 140,
+                    editable: true
+                }],
+                sortname: 'CustomerID',
+                sortorder: 'asc',
+                loadonce: true,
+                viewrecords: true,
+                width: 780,
+                height: 200,
+                rowNum: 10,
+                pager: "#gridPager3"
+            });
+
+            $('#grid3').navGrid("#gridPager3", {
+                search: true, // show search button on the toolbar
+                add: true,
+                edit: true,
+                del: true,
+                refresh: true
+            });
+
+
+
+
+
+            $("#grid4").jqGrid({
+                url: 'http://trirand.com/blog/phpjqgrid/examples/jsonp/getjsonp.php?callback=?&qwery=longorders',
+                mtype: "GET",
+                datatype: "jsonp",
+                colModel: [{
+                    label: 'OrderID',
+                    name: 'OrderID',
+                    key: true,
+                    width: 75
+                }, {
+                    label: 'Customer ID',
+                    name: 'CustomerID',
+                    width: 150
+                }, {
+                    label: 'Order Date',
+                    name: 'OrderDate',
+                    width: 150
+                }, {
+                    label: 'Freight',
+                    name: 'Freight',
+                    width: 150
+                }, {
+                    label: 'Ship Name',
+                    name: 'ShipName',
+                    width: 150
+                }],
+                page: 1,
+                autowidth: true,
+                height: 250,
+                viewrecords: true,
+                gridComplete: function() {
+                    $("#page").pagination('setOption', {
+                        pageIndex: grid4.p.page - 1,
+                        pageSize: grid4.p.rowNum
+                    });
+                    $("#page").pagination('render', grid4.p.records);
+
+
+
+                }
+            });
+
+            var grid4 = $('#grid4')[0];
+            $("#page").pagination({
+                pageIndex: 0,
+                pageBtnCount: 9,
+                showFirstLastBtn: true,
+                alwaysBtnShow: true,
+                showJump: true,
+                showPageSizes: true,
+                pageSizeItems: [5, 10, 15, 20],
+                pageElementSort: ['$page', '$size', '$jump', '$info'],
+                showInfo: true,
+                infoFormat: "{start} ~ {end} 共 {total} 条数据",
+            });
+            $("#page").on("pageClicked", function(event, data) {
+                grid4.p.page = data.pageIndex + 1;
+                grid4.grid.populate()
+            });
+            $("#page").on("jumpClicked", function(event, data) {
+                grid4.p.page = data.pageIndex + 1;
+                grid4.grid.populate()
+            })
+            $("#page").on("pageSizeChanged", function(event, data) {
+                grid4.p.page = data.pageIndex + 1;
+                grid4.p.rowNum = data.pageSize;
+                grid4.grid.populate()
+            })
+
+
+        });
+
+    })
+
+    
+})
+</script>

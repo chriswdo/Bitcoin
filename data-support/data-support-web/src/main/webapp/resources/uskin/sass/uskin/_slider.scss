@@ -1,0 +1,63 @@
+
+
+ 
+$slider_active_bg:$u_primary;
+$slider_bg:#ccc;
+$slider_text_color: #999;
+$slider_text_bg:#eee;
+
+body {
+    .irs-line-mid,
+    .irs-line-left,
+    .irs-line-right,
+    .irs-bar,
+    .irs-bar-edge,
+    .irs-slider {
+        background: none;
+    }
+    .irs-bar,
+    .irs-bar-edge {
+        background: $slider_active_bg;
+    }
+    .irs-bar-edge {
+        @include border-radius(6px,0,0,6px);
+    }
+    .irs-from,
+    .irs-to,
+    .irs-single {
+        background: $slider_active_bg;
+    }
+    .irs-from:after,
+    .irs-to:after,
+    .irs-single:after {
+        border-top-color: $slider_active_bg;
+    }
+    .irs-slider {
+        width: 8px;
+        padding: 0 1px;
+        border-left:6px solid $slider_active_bg;
+        &:hover {
+            border-color: darken($slider_active_bg, 10%);
+        }
+    }
+    .irs-min,
+    .irs-max {
+        color: $slider_text_color;
+        background: $slider_text_bg;
+    }
+    .irs-line-mid {
+        background: $slider_bg;
+    }
+    .irs-line-right {
+        background: $slider_bg;
+        @include border-radius(0, 6px, 6px, 0);
+    }
+    .irs-line-left {
+        background: $slider_bg;
+        @include border-radius(0, 6px, 6px, 0);
+    }
+    .irs-grid-text {
+        color: $slider_text_color;
+    }
+}
+

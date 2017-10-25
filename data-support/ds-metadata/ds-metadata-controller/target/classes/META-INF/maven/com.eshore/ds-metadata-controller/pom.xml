@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.eshore</groupId>
+	    <artifactId>ds-metadata</artifactId>
+	    <version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>ds-metadata-controller</artifactId>
+	<name>ds-metadata-controller</name>
+	<packaging>jar</packaging>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.type>controller</project.type>
+		<base.package>[com.eshore.datasupport.metadata.controller]</base.package>
+	</properties>
+	<dependencies>
+		<!-- 基础依赖 start -->
+		<dependency>
+	      <groupId>junit</groupId>
+	      <artifactId>junit</artifactId>
+	      <scope>test</scope>
+	    </dependency>
+
+		<dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-lgpl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+        </dependency>
+	    <dependency>
+	      <groupId>com.eshore.khala</groupId>
+	      <artifactId>eshore-khala-core-controller</artifactId>
+	      <version>${khala.version}</version>
+	    </dependency>
+	    <dependency>  
+	        <groupId>org.springframework</groupId>  
+	        <artifactId>spring-web</artifactId>  
+	    </dependency>
+		<!-- 基础依赖  end -->
+ 
+		<!-- 模块间依赖 -->
+        <dependency>
+		  <groupId>com.eshore</groupId>
+	      <artifactId>ds-common-controller</artifactId>
+ 	      <version>${project.parent.version}</version>
+		</dependency>
+        <dependency>
+		  <groupId>com.eshore</groupId>
+	      <artifactId>ds-metadata-api</artifactId>
+ 	      <version>${project.parent.version}</version>
+		</dependency>
+
+
+
+	</dependencies>
+	
+
+</project>

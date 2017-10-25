@@ -1,0 +1,31 @@
+
+
+
+.u_badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
+    background:#ddd;
+}
+.u_badge_danger{
+    background:$u_danger;
+}
+.u_badge_warning{
+    background:$u_warning;
+}
+.u_badge_primary{
+    background:$u_primary;
+}
+.u_badge_info{
+    background:$u_info;
+}
+.u_badge_success{
+    background:$u_success;
+}

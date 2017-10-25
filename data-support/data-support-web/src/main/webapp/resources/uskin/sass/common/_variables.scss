@@ -1,0 +1,228 @@
+/* -----样式变量---- */
+
+
+/* -----版本1.0---- */
+
+
+/* -----日期2016.3.31---- */
+
+//主调色
+$u_primary:#33ced0;
+//辅助色
+$u_fuzhu:$u_primary;
+//状态色
+$u_success:#bad55e;
+$u_info:#44619d;
+$u_warning:#f4b46e;
+$u_danger:#e46059;
+//黑色字体
+$u_font_color: #666;
+$u_font_color_dark: #333;
+$u_font_color_light: #aaa;
+//灰色背景
+$u_gray_bg: #f7f7f7;
+//灰度
+$u_gray_base: #000;
+$u_gray_darker: lighten($u_gray_base, 13.5%); // #222
+$u_gray_dark: lighten($u_gray_base, 20%); // #333	
+$u_gray: lighten($u_gray_base, 33.5%); // #555    
+$u_gray_light: lighten($u_gray_base, 46.7%); // #777	
+$u_gray_lighter: lighten($u_gray_base, 93.5%); // #eee
+//边框颜色
+$border_color: $u_gray_lighter;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------sidebar------------------------------------ 
+// 
+$u_sidebar_btn_bg:#232f3a;
+$u_sidebar_btn_color:#fff;
+$u_sidebar_btn_height:32px;
+//背景色/图片
+$u_sidebar_bg: #293038!default;
+//宽
+$u_sidebar_width: 210px!default;
+//缩小的宽
+$u_sidebar_shrink_width:50px!default;
+//缩进
+$u_sidebar_retract: 20px 40px 60px 80px 100px 120px !default;
+//行高
+$u_sidebar_node_height: 40px 38px 36px 32px 32px 32px!default;
+//字体大小
+$u_sidebar_node_size: 14px 12px 12px 12px 12px 12px !default;
+//线样式
+//颜色
+$u_sidebar_color: ('color': #fff, 'color_hover': #fff, 'color_open': #fff, 'color_active': #fff, 'background': #22282e, 'background_hover': #414d5c, background_open:#22282e, 'background_active': #33ced0) ('color': #fff, 'color_hover': #fff, 'color_open': #fff, 'color_active': #fff, 'background': #293038, 'background_hover': #414d5c, background_open:#293038, 'background_active': #33ced0) ('color': #fff, 'color_hover': #fff, 'color_open': #fff, 'color_active': #fff, 'background': #22282e, 'background_hover': #414d5c, background_open:#22282e, 'background_active': #33ced0) ('color': #fff, 'color_hover': #fff, 'color_open': #fff, 'color_active': #fff, 'background': #293038, 'background_hover': #414d5c, background_open:#293038, 'background_active': #33ced0) ('color': #fff, 'color_hover': #fff, 'color_open': #fff, 'color_active': #fff, 'background': #22282e, 'background_hover': #414d5c, background_open:#22282e, 'background_active': #33ced0) ('color': #fff, 'color_hover': #fff, 'color_open': #fff, 'color_active': #fff, 'background': #293038, 'background_hover': #414d5c, background_open:#293038, 'background_active': #33ced0);
+//线样式
+$u_node_line_style:('line_style':1px solid #33ced0, 'line_point_radius':10px, 'line_point_color':#33ced0, 'line_width':15px);
+
+
+// ------------------------deputybar------------------------------------ 
+$u_deputybar_width: 180px;
+$u_deputybar_bg: #EAEDF1;
+$u_deputybar_head_height: 50px;
+$u_deputybar_head_bg: #D9DEE4;
+$u_deputybar_head_border: 1px solid #ccc;
+$u_deputybar_head_color: #333;
+$u_deputybar_btn_bg: #f7f7f7;
+$u_deputybar_btn_color: #546478;
+//背景色/图片
+$u_deputybar_sidebar_bg: transparent!default;
+//宽
+$u_deputybar_sidebar_width: 100%!default;
+//缩小的宽
+$u_deputybar_sidebar_shrink_width:50px!default;
+//缩进
+$u_deputybar_sidebar_retract: 15px 35px 55px 75px 95px 115px !default;
+//行高
+$u_deputybar_sidebar_node_height: 40px 38px 36px 32px 32px 32px!default;
+//字体大小
+$u_deputybar_sidebar_node_size: 12px 12px 12px 12px 12px 12px !default;
+//线样式
+//颜色
+$u_deputybar_sidebar_color: ('color': #333, 'color_hover': #333, 'color_open': #333, 'color_active': #333, 'background': #D9DEE4, 'background_hover': #F4F6F8, background_open:#D9DEE4, 'background_active': #fff) ('color': #333, 'color_hover': #333, 'color_open': #333, 'color_active': #333, 'background': #e2e6ec, 'background_hover': #F4F6F8, background_open:#e2e6ec, 'background_active': #fff) ('color': #666, 'color_hover': #666, 'color_open': #666, 'color_active': #666, 'background': #EAEDF1, 'background_hover': #F4F6F8, background_open:#EAEDF1, 'background_active': #fff) ('color': #333, 'color_hover': #333, 'color_open': #333, 'color_active': #333, 'background': #f5f5f5, 'background_hover': #F4F6F8, background_open:#f5f5f5, 'background_active': #fff) ('color': #333, 'color_hover': #333, 'color_open': #333, 'color_active': #333, 'background': #D9DEE4, 'background_hover': #F4F6F8, background_open:#D9DEE4, 'background_active': #fff) ('color': #333, 'color_hover': #333, 'color_open': #333, 'color_active': #333, 'background': #f5f5f5, 'background_hover': #F4F6F8, background_open:#f5f5f5, 'background_active': #fff);
+//线样式
+$u_deputybar_node_line_style:('line_style':1px solid #999, 'line_point_radius':10px, 'line_point_color':#999, 'line_width':15px);
+// ------------------------form------------------------------------ 
+$u_label_em: 5em;
+//------------------------nav------------------------------------ 
+
+//-----------------------rightsidebar------------------------------------ 
+$u_rightsidebar_width:240px;
+$u_rightsidebar_bg:#EAEDF1;
+$u_rightsidebar_head_height: 50px;
+$u_rightsidebar_head_color: #333;
+$u_rightsidebar_head_bg: #D9DEE4;
+$u_rightsidebar_head_border: 1px solid #ccc;
+$u_rightsidebar_btn_color: #546478;
+$u_rightsidebar_btn_bg: #f7f7f7;
+//----------------panel-----------------------------
+$u_panel_head_height: 40px;
+$u_panel_head_bg:#f9fafb;
+$u_panel_head_color:#888;
+$u_panel_head_btn_color:#c0c2cd;
+$u_panel_boxShadow: none;
+$u_panel_bg: #fff;
+$u_panel_border: 1px solid #eee;
+$u_panel_placeHolder_bg: transparent;
+$u_panel_margin:5px;
+// ------------------------pagination------------------------------------ 
+
+//--------------------------------tab----------------------------------
+// $u_tab_height:40px;
+//$u_tab_color:#666;
+//$u_tab_bg:#f8f8f8;
+//$u_tab_active_color:#666;
+//$u_tab_active_bg:#fff;
+//$u_tab_primary_color:$u_primary;
+//$u_tab_dark_bg:#f5f5f5; 
+//------------step--------------------------------------
+// $u_step_bg:#dadfe9;
+// $u_step_bg_active:$u_primary;
+// $u_step_bg_current:$u_primary;
+// $u_step_color:#5b6480;
+// $u_step_color_active:#fff;
+// $u_step_color_current:#fff;
+// $u_step_height:32px;
+// $u_step_margin:1px;
+// $u_step_font_size:12px;
+// $u_step_boxShadow:0 1px 1px 1px rgba(0, 0, 0, .1);
+
+//---------------------------slide----------------------
+
+// ------------------------------uplan 主题变量----------------------------------------
+//主色调
+$brand-primary: $u_primary;
+$brand-success: $u_success;
+$brand-info: $u_info;
+$brand-warning: $u_warning;
+$brand-danger: $u_danger;
+//字体
+$font-family-sans-serif: "Microsoft Yahei",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+//字体大小
+$font-size-base: 12px;
+$font-size-h1: 32px; // ~36px
+$font-size-h2: 24px; // ~30px
+$font-size-h3: 18px; // ~24px
+$font-size-h4: 16px; // ~18px
+$font-size-h5: 14px;
+$font-size-h6: 12px; // ~12px
+//行高
+$line-height-base: 1.428571429;
+//body背景色
+$body-bg: #fff;
+//字体颜色
+$text-color: $u_font_color;
+//状态字体颜色
+$state-success-text: $u_success;
+$state-info-text: $u_info;
+$state-warning-text: $u_warning;
+$state-danger-text: $u_danger;
+$state-primary-bg: rgba($u_primary, .3);
+$state-primary-border: darken(adjust-hue($state-primary-bg, -10), 5%);
+$state-success-text: $u_success;
+$state-success-bg: rgba($u_success, .3);
+$state-success-border: darken(adjust-hue($state-success-bg, -10), 5%);
+$state-info-text: $u_info;
+$state-info-bg: rgba($u_info, .3);
+$state-info-border: darken(adjust-hue($state-info-bg, -10), 7%);
+$state-warning-text: $u_warning;
+$state-warning-bg: rgba($u_warning, .3);
+$state-warning-border: darken(adjust-hue($state-warning-bg, -10), 5%);
+$state-danger-text: $u_danger;
+$state-danger-bg: rgba($u_danger, .3);
+$state-danger-border: darken(adjust-hue($state-danger-bg, -10), 5%);
+//** 链接颜色.
+$link-color: #06c;
+//** 链接hover时颜色.
+$link-hover-color: darken($link-color, 15%);
+//** 链接hover 下划线
+$link-hover-decoration: underline;
+//网格数量
+$grid-columns: 24;
+//table 边 颜色
+$table-border-color: #ddd;
+$navbar-height: 50px;
+$navbar-margin-bottom: 0;
+$navbar-border-radius: 0;
+$navbar-padding-horizontal: 15px;
+$navbar-padding-vertical: 0;
+$navbar-collapse-max-height: 340px;
+// Reset inverted navbar basics
+$navbar-inverse-color: #fff;
+$navbar-inverse-bg: #33ced0;
+$navbar-inverse-border: darken($navbar-inverse-bg, 10%);
+// Inverted navbar links
+$navbar-inverse-link-color: #fff;
+$navbar-inverse-link-hover-color: #fff;
+$navbar-inverse-link-hover-bg: darken($navbar-inverse-bg, 10%);
+$navbar-inverse-link-active-color: darken($navbar-inverse-bg, 10%);
+$navbar-inverse-link-active-bg: darken($navbar-inverse-bg, 0%);
+$navbar-inverse-link-disabled-color: #444;
+$navbar-inverse-link-disabled-bg: transparent;
+// Inverted navbar brand label
+$navbar-inverse-brand-color: $navbar-inverse-link-color;
+$navbar-inverse-brand-hover-color: #fff;
+$navbar-inverse-brand-hover-bg: transparent;
+// Inverted navbar toggle
+$navbar-inverse-toggle-hover-bg: darken($navbar-inverse-bg, 10%);
+$navbar-inverse-toggle-icon-bar-bg: #fff;
+$navbar-inverse-toggle-border-color: #007399;
+//table
+$table-bg-accent:#f9fafb;

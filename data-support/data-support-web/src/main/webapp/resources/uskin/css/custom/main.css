@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .u_form .up-cq-group {
+    padding-left: 3.3em; }
+    .u_form .up-cq-group > .up-control-label {
+      width: 3.3em; }
+
+  .u_cq_form .up-form-group {
+    padding-left: 8em; }
+    .u_cq_form .up-form-group > .up-control-label {
+      width: 8em; } }
+.up-cq-pad-left {
+  padding-left: 15px; }

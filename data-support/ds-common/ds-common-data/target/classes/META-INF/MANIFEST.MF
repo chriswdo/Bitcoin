@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: ds-common-data
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.eshore
+Build-Jdk: 1.7.0_80
+Built-By: wd
+Created-By: Maven Integration for Eclipse
+

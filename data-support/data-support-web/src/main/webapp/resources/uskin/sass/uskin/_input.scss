@@ -1,0 +1,141 @@
+
+
+
+//变量
+.u_form_textmiddle {
+    padding-top: 7px;
+}
+
+.u_form_icon {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    z-index: 2;
+}
+
+.up-form-group {
+    position: relative;
+    >div{
+        position: relative;
+    }
+}
+
+.up-form-group-lg .u_form_icon {
+    top: 12px;
+}
+
+.up-form-group-sm .u_form_icon {
+    top: 5px;
+}
+
+.u_search_input {
+    position: relative;
+}
+
+.up-form-group.up-has-error label,
+.up-form-group.up-has-warning label,
+.up-form-group.up-has-success label {
+    color: inherit;
+}
+
+.up-has-warning {
+    .u_form_icon,
+    .u_form_remind {
+        color: $u_warning;
+    }
+}
+
+.up-has-error {
+    .u_form_icon,
+    .u_form_remind {
+        color: $u_danger;
+    }
+}
+
+.up-has-success {
+    .u_form_icon,
+    .u_form_remind {
+        color: $u_success;
+    }
+}
+.u_form_remind {
+        position: absolute;
+        top: 7px;
+        right: 30px;
+    }
+.u_form {
+    .up-form-group {
+        >[class*='up-col'] {
+            padding-right: 0;
+            padding-left: 0;
+            position: relative;
+        }
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .up-form-inline{
+        .up-form-group {
+    position: relative;
+    >div{
+        position: relative;
+        display:inline-table;
+    }
+}
+    }
+    .u_form {
+        @include clearfix();
+        .up-form-group {
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: $u_label_em + 2em;
+            position: relative;
+            @include clearfix();
+            >.up-control-label {
+                padding-left: 0;
+                padding-right: 0;
+                white-space: nowrap;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: $u_label_em + 2em;
+                padding-right: 1em;
+                text-align: right;
+                margin-bottom: 0;
+                padding-top: 7px;
+            }
+            &.up-form-group-lg {
+                >.up-control-label {
+                    padding-top: 12px;
+                }
+            }
+            &.up-form-group-sm {
+                >.up-control-label {
+                    padding-top: 5px;
+                }
+            }
+        }
+        .up-help-block {
+            margin-bottom: 0;
+        }
+    }
+    @for $i from 2 through 7 {
+        .u_form.u_form_#{$i}em .up-form-group>.up-control-label {
+            width: #{$i + 2}em;
+        }
+        .u_form_#{$i}em.tools,
+        .u_form.u_form_#{$i}em .up-form-group {
+            padding-left: #{$i + 2}em;
+        }
+    }
+    .u_form.u_form_block .up-form-group>.up-control-label {
+        width: 0;
+    }
+    .u_form.u_form_block .up-form-group {
+        padding-left: 0;
+    }
+    .u_form_icon {
+        right: 10px;
+    }
+}

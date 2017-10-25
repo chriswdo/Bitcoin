@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/plugins/share">
+	<excludes>
+ 		<pattern>*/css/*</pattern>  
+        <pattern>*/images/*</pattern>  
+        <pattern>*/js/*</pattern>  
+		<pattern>*/resources/*</pattern>
+		<pattern>*/deleteAllx*</pattern>
+		<pattern>*/deletex*</pattern>
+		<pattern>*/viewx*</pattern>
+		<pattern>*/modifyx*</pattern>
+		<pattern>*/savex*</pattern>
+		<pattern>*/listx*</pattern>
+		<pattern>*/index*</pattern>
+		<pattern>*/login*</pattern>
+		<pattern>*/sessionTimeout*</pattern>
+        <pattern>*/sysmgr/login/*</pattern>		
+        <pattern>*/ajax*</pattern>	
+        <pattern>*/get*</pattern>
+        <pattern>*/query*</pattern>	
+	</excludes>
+	
+	<decorator name="demo" page="demowebdefault.jsp">
+		<pattern>*/product/*</pattern>
+		<pattern>*/example/main</pattern>
+		<pattern>*/main</pattern>
+	</decorator>
+    
+	<!-- plugins sysmgr start -->
+	<decorator name="sysmgr" page="../sysmgr/share/sysmgrwebdefault.jsp">
+		<pattern>*/sysmgr/*</pattern>
+	</decorator>
+    <!-- plugins sysmgr end -->
+</decorators>

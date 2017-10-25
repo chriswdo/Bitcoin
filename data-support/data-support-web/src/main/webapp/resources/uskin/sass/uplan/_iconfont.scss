@@ -1,0 +1,28 @@
+@at-root {
+    @font-face {
+        font-family: "uplan";
+        src: url('../fonts/iconfont.eot?');
+        src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff?') format('woff'), url('../fonts/iconfont.ttf?') format('truetype'), url('../fonts/iconfont.svg?#iconfont') format('svg');
+    }
+}
+
+[class^="icon-u-"]:before,
+[class*=" icon-u-"]:before{
+    content:"";
+    font-family: "uplan";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+

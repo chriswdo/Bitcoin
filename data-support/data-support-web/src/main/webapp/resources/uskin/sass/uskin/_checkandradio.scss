@@ -1,0 +1,38 @@
+
+
+ 
+.u_check input {
+    @include display-none();
+}
+
+.u_check i {
+    @include user-select(none);
+    color: $u_primary;
+}
+
+.u_check {
+    cursor: pointer;
+}
+
+.u_check.u_check_disabled {
+    cursor: not-allowed;
+    opacity: .6;
+}
+
+.u_check.u_check_rect {
+    padding: 7px 10px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid $u_primary;
+}
+
+
+
+.up-form-group {
+	.u_check {
+    margin-top: 7px;
+}
+    .u_check_rect{
+        margin-top: 0;
+    }
+}

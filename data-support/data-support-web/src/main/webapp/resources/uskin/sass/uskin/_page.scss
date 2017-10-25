@@ -1,0 +1,137 @@
+
+
+
+//变量
+$u_pagination_font_size:12px;
+$u_pagination_font_color:#666;
+$u_pagination_active_font_color:#fff;
+$u_pagination_bg:#fff;
+$u_pagination_active_bg:$u_primary;
+$u_pagination_height:34px;
+$u_pagination_radius:4px;
+
+
+
+.u_pagination {
+    margin: 10px 0;
+    height: 38px;
+}
+
+.u_pagination-page,
+.u_pagination-info,
+.u_pagination-size,
+.u_pagination-jump {
+    float: left;
+    margin-top: 2px;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+
+.u_pagination-page > li > a,
+.u_pagination-size > select,
+.u_pagination-group > input,
+.u_pagination-group > button,
+.u_pagination-info {
+    font-size: $u_pagination_font_size;
+    color: $u_pagination_font_color;
+}
+
+
+/* border */
+
+.u_pagination-page > li > a,
+.u_pagination-size > select,
+.u_pagination-group > input,
+.u_pagination-group > button {
+    outline: none;
+    @include user-select(none);
+    border: 1px solid #ddd;
+}
+
+
+/* button */
+
+.u_pagination-page > li > a,
+.u_pagination-group > button {
+    cursor: pointer;
+    background-color: $u_pagination_bg;
+}
+
+.u_pagination-page > li:hover > a,
+.u_pagination-group > button:hover {
+    background-color: darken($u_pagination_bg,5%);
+    border-color: #ddd;
+}
+
+.u_pagination-page {
+    >li {
+        list-style: none;
+        float: left;
+        >a {
+            height: $u_pagination_height;
+            line-height: $u_pagination_height;
+            min-width: $u_pagination_height;
+            text-align: center;
+            margin-left: -1px;
+            display: inline-block;
+            padding: 0 6px;
+            text-decoration: none;
+        }
+        &.active >a{
+            color: #fff;
+            background-color: $u_pagination_active_bg;
+            border-color: $u_pagination_active_bg;
+        }
+        &:first-child > a {
+            margin-left: 0;
+            border-top-left-radius: $u_pagination_radius;
+            border-bottom-left-radius: $u_pagination_radius;
+        }
+        &:last-child > a {
+            border-top-right-radius: $u_pagination_radius;
+            border-bottom-right-radius: $u_pagination_radius;
+        }
+    }
+}
+
+
+
+
+.u_pagination-size > select {
+    cursor: pointer;
+    height: $u_pagination_height;
+    padding: 0px 2px;
+    border-radius: $u_pagination_radius;
+}
+
+
+
+
+.u_pagination-group {
+    >input,
+    >button {
+        float: left;
+    }
+    > input {
+        border-top-left-radius: $u_pagination_radius;
+        border-bottom-left-radius: $u_pagination_radius;
+        width: 40px;
+        height: $u_pagination_height;
+        padding: 0px;
+        text-align: center;
+    }
+    > button {
+        border-left: none;
+        border-top-right-radius: $u_pagination_radius;
+        border-bottom-right-radius: $u_pagination_radius;
+        height: $u_pagination_height;
+        padding: 0px 7px;
+    }
+
+}
+
+    .u_pagination-info {
+        height: $u_pagination_height;
+        line-height: $u_pagination_height;
+    }

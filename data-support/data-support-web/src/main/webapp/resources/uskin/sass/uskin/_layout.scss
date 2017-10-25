@@ -1,0 +1,14 @@
+
+
+//样式
+$direction:top right bottom left;
+@for $i from 1 through 4 {
+    @for $j from 1 through 5 {
+        .u-margin-#{nth($direction,$i)}#{$j * 5} {
+            margin-#{nth($direction,$i)}: $j * 5px;
+        }
+        .u-padding-#{nth($direction,$i)}#{$j * 5} {
+            padding-#{nth($direction,$i)}: $j * 5px;
+        }
+    }
+}

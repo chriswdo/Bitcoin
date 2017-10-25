@@ -1,0 +1,27 @@
+
+
+
+.up-panel {
+    &.u-panel-full {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        min-height: 100%;
+    }
+    .u-panel-slide-btn,
+    .u-panel-full-btn,
+    .u-panel-remove-btn{
+        cursor: pointer;
+    }
+}
+
+.u-panel-placeHolder {
+    margin: $u_panel_margin $u_panel_margin - 1px $u_panel_margin $u_panel_margin;
+    border: 1px dotted #ccc;
+    float: left;
+    background: transparent;
+}
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+    <modelVersion>4.0.0</modelVersion>  
+    <parent> 
+        <groupId>com.eshore</groupId>  
+        <artifactId>data-support</artifactId>  
+        <version>1.0.0-SNAPSHOT</version> 
+    </parent>  
+    <artifactId>ds-metadata</artifactId>  
+    <name>ds-metadata</name>  
+    <packaging>pom</packaging>  
+    <modules> 
+        <module>ds-metadata-api</module>  
+        <module>ds-metadata-controller</module>  
+        <module>ds-metadata-data</module>  
+        <module>ds-metadata-service</module> 
+    </modules>  
+    <dependencies>
+     <!-- kettle -->
+		<dependency>
+	         <groupId>pentaho-kettle</groupId>
+	         <artifactId>kettle-core</artifactId>
+	         <version>${kettle.version}</version>
+	     </dependency>
+	   </dependencies>
+    <properties> 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+        <project.type>pom</project.type>  
+        <base.package>[]</base.package> 
+    </properties> 
+</project>

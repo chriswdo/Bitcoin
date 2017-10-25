@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1495182134136" analysisTimestamp="1495185708799" release="">
+  <Project>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\pojo\Gj.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\pojo\Yhb.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\pojo\Yhzy.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\pojo\Zypz.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\service\IEmailService.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\service\IGjService.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\service\IYhbService.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\service\IYhzyService.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\service\IZypzService.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\util\Conts.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\util\DataSourceEnum.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\util\DataSourceUtil.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\util\DateUtils.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\util\SecurityFilter.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\src\main\java\com\eshore\datasupport\common\util\SessionUtil.java</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\pojo\Gj.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\pojo\Yhb.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\pojo\Yhzy.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\pojo\Zypz.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\service\IEmailService.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\service\IGjService.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\service\IYhbService.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\service\IYhzyService.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\service\IZypzService.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\util\Conts.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\util\DataSourceEnum.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\util\DataSourceUtil.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\util\DateUtils.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\util\SecurityFilter.class</Jar>
+    <Jar>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes\com\eshore\datasupport\common\util\SessionUtil.class</Jar>
+    <AuxClasspathEntry>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\eshore\khala\eshore-khala-core-api\1.0.0-SNAPSHOT\eshore-khala-core-api-1.0.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\eshore\khala\eshore-khala-common\1.0.0-SNAPSHOT\eshore-khala-common-1.0.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\javax\mail\javax.mail-api\1.5.5\javax.mail-api-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\sun\mail\javax.mail\1.5.5\javax.mail-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\javax\activation\activation\1.1\activation-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\cglib\cglib\2.2.2\cglib-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\alibaba\fastjson\1.1.40\fastjson-1.1.40.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-io\commons-io\2.4\commons-io-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\commons\commons-compress\1.6\commons-compress-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\tukaani\xz\1.4\xz-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-net\commons-net\1.4.1\commons-net-1.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\oro\oro\2.0.8\oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\google\guava\guava\17.0\guava-17.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\google\code\gson\gson\2.3\gson-2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\joda-time\joda-time\2.3\joda-time-2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\joda-time\joda-time-jsptags\1.1.1\joda-time-jsptags-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\net\sf\jxls\jxls-core\1.0.6\jxls-core-1.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\commons\commons-jexl\2.0.1\commons-jexl-2.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\springframework\spring-context\3.2.9.RELEASE\spring-context-3.2.9.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\springframework\spring-aop\3.2.9.RELEASE\spring-aop-3.2.9.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\springframework\spring-beans\3.2.9.RELEASE\spring-beans-3.2.9.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\springframework\spring-core\3.2.9.RELEASE\spring-core-3.2.9.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\springframework\spring-expression\3.2.9.RELEASE\spring-expression-3.2.9.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\esotericsoftware\kryo\3.0.0\kryo-3.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\esotericsoftware\reflectasm\1.10.0\reflectasm-1.10.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\ow2\asm\asm\4.2\asm-4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\de\ruedigermoeller\fst\1.58\fst-1.58.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\caucho\hessian\3.1.5\hessian-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\thoughtworks\xstream\xstream\1.4.7\xstream-1.4.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\xmlgraphics\batik-css\1.8\batik-css-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\xmlgraphics\batik-ext\1.8\batik-ext-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\apache\xmlgraphics\batik-util\1.8\batik-util-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\uk\com\robust-it\cloning\1.9.2\cloning-1.9.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\io7m\xom\xom\1.2.10\xom-1.2.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\xerces\xercesImpl\2.8.0\xercesImpl-2.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\com\belerweb\pinyin4j\2.5.0\pinyin4j-2.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\fakepath\patchca\0.5.0\patchca-0.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\taglibs\standard\1.1.2\standard-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\opensymphony\sitemesh\2.4.2\sitemesh-2.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\hibernate\hibernate-annotations\3.5.4-Final\hibernate-annotations-3.5.4-Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\hibernate\hibernate-core\3.5.4-Final\hibernate-core-3.5.4-Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\javax\transaction\jta\1.1\jta-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\javax\servlet\jstl\1.2\jstl-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\install_local_wd\maven\repository\javax\servlet\jsp-api\2.0\jsp-api-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>E:\work\workspace_zc_new\data-support\ds-common\ds-common-api\target\sonar</WrkDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="97fe279690d674139ae98883adcb0b0a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Gj.getFd_cjsj() may expose internal representation by returning Gj.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Gj" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="15" end="106" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>At Gj.java:[lines 15-106]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Gj</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Gj" name="getFd_cjsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="65" end="65" startBytecode="0" endBytecode="46" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Gj.getFd_cjsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Gj" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>In Gj.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Gj.fd_cjsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" primary="true" start="65" end="65" startBytecode="4" endBytecode="4" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+      <Message>At Gj.java:[line 65]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="a06275e23df7c5e9f3499aeb76c05e52" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Gj.getFd_gxsj() may expose internal representation by returning Gj.fd_gxsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Gj" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="15" end="106" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>At Gj.java:[lines 15-106]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Gj</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Gj" name="getFd_gxsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="74" end="74" startBytecode="0" endBytecode="46" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Gj.getFd_gxsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Gj" name="fd_gxsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>In Gj.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Gj.fd_gxsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" primary="true" start="74" end="74" startBytecode="4" endBytecode="4" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+      <Message>At Gj.java:[line 74]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="5e93140af5faa683ce5ceace32dfe70b" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Gj.setFd_cjsj(Date) may expose internal representation by storing an externally mutable object into Gj.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Gj" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="15" end="106" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>At Gj.java:[lines 15-106]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Gj</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Gj" name="setFd_cjsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="69" end="70" startBytecode="0" endBytecode="61" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Gj.setFd_cjsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Gj" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>In Gj.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Gj.fd_cjsj</Message>
+    </Field>
+    <LocalVariable name="fd_cjsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_cjsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" primary="true" start="69" end="69" startBytecode="2" endBytecode="2" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+      <Message>At Gj.java:[line 69]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="ca38d13ca6ef31cb1ba0ed4280f6a587" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Gj.setFd_gxsj(Date) may expose internal representation by storing an externally mutable object into Gj.fd_gxsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Gj" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="15" end="106" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>At Gj.java:[lines 15-106]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Gj</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Gj" name="setFd_gxsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" start="78" end="79" startBytecode="0" endBytecode="61" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Gj.setFd_gxsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Gj" name="fd_gxsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+        <Message>In Gj.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Gj.fd_gxsj</Message>
+    </Field>
+    <LocalVariable name="fd_gxsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_gxsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Gj" primary="true" start="78" end="78" startBytecode="2" endBytecode="2" sourcefile="Gj.java" sourcepath="com/eshore/datasupport/common/pojo/Gj.java">
+      <Message>At Gj.java:[line 78]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="f6806955412fdfa6cacd8d1aae069cf3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Yhb.getFd_cjsj() may expose internal representation by returning Yhb.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Yhb" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="15" end="126" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>At Yhb.java:[lines 15-126]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Yhb</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Yhb" name="getFd_cjsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="94" end="94" startBytecode="0" endBytecode="46" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Yhb.getFd_cjsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Yhb" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>In Yhb.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Yhb.fd_cjsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" primary="true" start="94" end="94" startBytecode="4" endBytecode="4" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+      <Message>At Yhb.java:[line 94]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="8a11222b1de8ecb1f76cf95ac21ffba4" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Yhb.getFd_gxsj() may expose internal representation by returning Yhb.fd_gxsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Yhb" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="15" end="126" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>At Yhb.java:[lines 15-126]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Yhb</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Yhb" name="getFd_gxsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="103" end="103" startBytecode="0" endBytecode="46" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Yhb.getFd_gxsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Yhb" name="fd_gxsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>In Yhb.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Yhb.fd_gxsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" primary="true" start="103" end="103" startBytecode="4" endBytecode="4" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+      <Message>At Yhb.java:[line 103]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="1145d7e9c877871fe0c7264bcf621457" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Yhb.setFd_cjsj(Date) may expose internal representation by storing an externally mutable object into Yhb.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Yhb" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="15" end="126" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>At Yhb.java:[lines 15-126]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Yhb</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Yhb" name="setFd_cjsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="98" end="99" startBytecode="0" endBytecode="61" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Yhb.setFd_cjsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Yhb" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>In Yhb.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Yhb.fd_cjsj</Message>
+    </Field>
+    <LocalVariable name="fd_cjsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_cjsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" primary="true" start="98" end="98" startBytecode="2" endBytecode="2" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+      <Message>At Yhb.java:[line 98]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="25de2805d530cd58bf14b71ea21fa40d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Yhb.setFd_gxsj(Date) may expose internal representation by storing an externally mutable object into Yhb.fd_gxsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Yhb" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="15" end="126" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>At Yhb.java:[lines 15-126]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Yhb</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Yhb" name="setFd_gxsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" start="107" end="108" startBytecode="0" endBytecode="61" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Yhb.setFd_gxsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Yhb" name="fd_gxsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+        <Message>In Yhb.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Yhb.fd_gxsj</Message>
+    </Field>
+    <LocalVariable name="fd_gxsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_gxsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Yhb" primary="true" start="107" end="107" startBytecode="2" endBytecode="2" sourcefile="Yhb.java" sourcepath="com/eshore/datasupport/common/pojo/Yhb.java">
+      <Message>At Yhb.java:[line 107]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="cb663cb3f732c59de86ffedef245328d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Yhzy.getFd_cjsj() may expose internal representation by returning Yhzy.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Yhzy" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" start="15" end="66" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java">
+        <Message>At Yhzy.java:[lines 15-66]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Yhzy</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Yhzy" name="getFd_cjsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" start="52" end="52" startBytecode="0" endBytecode="46" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Yhzy.getFd_cjsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Yhzy" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java">
+        <Message>In Yhzy.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Yhzy.fd_cjsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" primary="true" start="52" end="52" startBytecode="4" endBytecode="4" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java">
+      <Message>At Yhzy.java:[line 52]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="a12df555fb9d4d784a33fe872c5efc56" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Yhzy.setFd_cjsj(Date) may expose internal representation by storing an externally mutable object into Yhzy.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Yhzy" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" start="15" end="66" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java">
+        <Message>At Yhzy.java:[lines 15-66]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Yhzy</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Yhzy" name="setFd_cjsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" start="56" end="57" startBytecode="0" endBytecode="61" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Yhzy.setFd_cjsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Yhzy" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java">
+        <Message>In Yhzy.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Yhzy.fd_cjsj</Message>
+    </Field>
+    <LocalVariable name="fd_cjsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_cjsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Yhzy" primary="true" start="56" end="56" startBytecode="2" endBytecode="2" sourcefile="Yhzy.java" sourcepath="com/eshore/datasupport/common/pojo/Yhzy.java">
+      <Message>At Yhzy.java:[line 56]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="963d5e1741fd1068b21cd49247e66a9a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Zypz.getFd_cjsj() may expose internal representation by returning Zypz.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Zypz" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="15" end="117" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>At Zypz.java:[lines 15-117]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Zypz</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Zypz" name="getFd_cjsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="76" end="76" startBytecode="0" endBytecode="46" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Zypz.getFd_cjsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Zypz" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>In Zypz.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Zypz.fd_cjsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" primary="true" start="76" end="76" startBytecode="4" endBytecode="4" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+      <Message>At Zypz.java:[line 76]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="e75d6e9caa84857f584a243fc45f552d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Zypz.getFd_gxsj() may expose internal representation by returning Zypz.fd_gxsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Zypz" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="15" end="117" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>At Zypz.java:[lines 15-117]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Zypz</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Zypz" name="getFd_gxsj" signature="()Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="85" end="85" startBytecode="0" endBytecode="46" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Zypz.getFd_gxsj()</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Zypz" name="fd_gxsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>In Zypz.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Zypz.fd_gxsj</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" primary="true" start="85" end="85" startBytecode="4" endBytecode="4" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+      <Message>At Zypz.java:[line 85]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="50da52f70c398f3fe2e77eab65e76d99" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Zypz.setFd_cjsj(Date) may expose internal representation by storing an externally mutable object into Zypz.fd_cjsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Zypz" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="15" end="117" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>At Zypz.java:[lines 15-117]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Zypz</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Zypz" name="setFd_cjsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="80" end="81" startBytecode="0" endBytecode="61" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Zypz.setFd_cjsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Zypz" name="fd_cjsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>In Zypz.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Zypz.fd_cjsj</Message>
+    </Field>
+    <LocalVariable name="fd_cjsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_cjsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" primary="true" start="80" end="80" startBytecode="2" endBytecode="2" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+      <Message>At Zypz.java:[line 80]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="d75e8763aeab86a898ca0aa7e6dd146b" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.pojo.Zypz.setFd_gxsj(Date) may expose internal representation by storing an externally mutable object into Zypz.fd_gxsj</LongMessage>
+    <Class classname="com.eshore.datasupport.common.pojo.Zypz" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="15" end="117" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>At Zypz.java:[lines 15-117]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.pojo.Zypz</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.pojo.Zypz" name="setFd_gxsj" signature="(Ljava/util/Date;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" start="89" end="90" startBytecode="0" endBytecode="61" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java"/>
+      <Message>In method com.eshore.datasupport.common.pojo.Zypz.setFd_gxsj(Date)</Message>
+    </Method>
+    <Field classname="com.eshore.datasupport.common.pojo.Zypz" name="fd_gxsj" signature="Ljava/util/Date;" isStatic="false" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+        <Message>In Zypz.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.pojo.Zypz.fd_gxsj</Message>
+    </Field>
+    <LocalVariable name="fd_gxsj" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named fd_gxsj</Message>
+    </LocalVariable>
+    <SourceLine classname="com.eshore.datasupport.common.pojo.Zypz" primary="true" start="89" end="89" startBytecode="2" endBytecode="2" sourcefile="Zypz.java" sourcepath="com/eshore/datasupport/common/pojo/Zypz.java">
+      <Message>At Zypz.java:[line 89]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="STCAL_STATIC_SIMPLE_DATE_FORMAT_INSTANCE" priority="2" rank="14" abbrev="STCAL" category="MT_CORRECTNESS" instanceHash="dcea29340a1d6199137194ad483f8aa6" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="366">
+    <ShortMessage>Static DateFormat</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.util.Conts.ymdhms is a static field of type java.text.DateFormat, which isn&apos;t thread safe</LongMessage>
+    <Class classname="com.eshore.datasupport.common.util.Conts" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.util.Conts" start="13" end="47" sourcefile="Conts.java" sourcepath="com/eshore/datasupport/common/util/Conts.java">
+        <Message>At Conts.java:[lines 13-47]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.util.Conts</Message>
+    </Class>
+    <Field classname="com.eshore.datasupport.common.util.Conts" name="ymdhms" signature="Ljava/text/SimpleDateFormat;" isStatic="true" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.util.Conts" sourcefile="Conts.java" sourcepath="com/eshore/datasupport/common/util/Conts.java">
+        <Message>In Conts.java</Message>
+      </SourceLine>
+      <Message>Field com.eshore.datasupport.common.util.Conts.ymdhms</Message>
+    </Field>
+    <SourceLine classname="com.eshore.datasupport.common.util.Conts" sourcefile="Conts.java" sourcepath="com/eshore/datasupport/common/util/Conts.java" synthetic="true">
+      <Message>In Conts.java</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" instanceHash="926b157371a64f9d715bc832046bc3fe" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="89">
+    <ShortMessage>Nonconstant string passed to execute or addBatch method on an SQL statement</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.util.DataSourceUtil.getMetadatacolm(String, String, Connection) passes a nonconstant String to an execute or addBatch method on an SQL statement</LongMessage>
+    <Class classname="com.eshore.datasupport.common.util.DataSourceUtil" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="12" end="234" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java">
+        <Message>At DataSourceUtil.java:[lines 12-234]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.util.DataSourceUtil</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.util.DataSourceUtil" name="getMetadatacolm" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/sql/Connection;)Ljava/util/List;" isStatic="true" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="85" end="187" startBytecode="0" endBytecode="508" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java"/>
+      <Message>In method com.eshore.datasupport.common.util.DataSourceUtil.getMetadatacolm(String, String, Connection)</Message>
+    </Method>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" primary="true" start="162" end="162" startBytecode="947" endBytecode="947" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java">
+      <Message>At DataSourceUtil.java:[line 162]</Message>
+    </SourceLine>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="147" end="147" startBytecode="729" endBytecode="729" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at DataSourceUtil.java:[line 147]</Message>
+    </SourceLine>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="132" end="132" startBytecode="495" endBytecode="495" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at DataSourceUtil.java:[line 132]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" instanceHash="7817c991d1d86a47f054a08062759525" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="89">
+    <ShortMessage>Nonconstant string passed to execute or addBatch method on an SQL statement</ShortMessage>
+    <LongMessage>com.eshore.datasupport.common.util.DataSourceUtil.getysjbMeg(String, String, Connection) passes a nonconstant String to an execute or addBatch method on an SQL statement</LongMessage>
+    <Class classname="com.eshore.datasupport.common.util.DataSourceUtil" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="12" end="234" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java">
+        <Message>At DataSourceUtil.java:[lines 12-234]</Message>
+      </SourceLine>
+      <Message>In class com.eshore.datasupport.common.util.DataSourceUtil</Message>
+    </Class>
+    <Method classname="com.eshore.datasupport.common.util.DataSourceUtil" name="getysjbMeg" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/sql/Connection;)Ljava/util/List;" isStatic="true" primary="true">
+      <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="191" end="234" startBytecode="0" endBytecode="192" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java"/>
+      <Message>In method com.eshore.datasupport.common.util.DataSourceUtil.getysjbMeg(String, String, Connection)</Message>
+    </Method>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" primary="true" start="197" end="197" startBytecode="62" endBytecode="62" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java">
+      <Message>At DataSourceUtil.java:[line 197]</Message>
+    </SourceLine>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="207" end="207" startBytecode="185" endBytecode="185" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at DataSourceUtil.java:[line 207]</Message>
+    </SourceLine>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="225" end="225" startBytecode="413" endBytecode="413" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at DataSourceUtil.java:[line 225]</Message>
+    </SourceLine>
+    <SourceLine classname="com.eshore.datasupport.common.util.DataSourceUtil" start="216" end="216" startBytecode="307" endBytecode="307" sourcefile="DataSourceUtil.java" sourcepath="com/eshore/datasupport/common/util/DataSourceUtil.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at DataSourceUtil.java:[line 216]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugCategory category="MT_CORRECTNESS">
+    <Description>Multithreaded correctness</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by incorporating reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by returning reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" abbrev="SQL" category="SECURITY" cweid="89">
+    <ShortDescription>Nonconstant string passed to execute or addBatch method on an SQL statement</ShortDescription>
+    <Details><![CDATA[
+
+  <p>The method invokes the execute or addBatch method on an SQL statement with a String that seems
+to be dynamically generated. Consider using
+a prepared statement instead. It is more efficient and less vulnerable to
+SQL injection attacks.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="STCAL_STATIC_SIMPLE_DATE_FORMAT_INSTANCE" abbrev="STCAL" category="MT_CORRECTNESS">
+    <ShortDescription>Static DateFormat</ShortDescription>
+    <Details><![CDATA[
+
+<p>As the JavaDoc states, DateFormats are inherently unsafe for multithreaded use.
+Sharing a single instance across thread boundaries without proper synchronization will result in erratic behavior of the
+application.</p>
+<p>You may also experience serialization problems.</p>
+<p>Using an instance field is recommended.</p>
+<p>For more information on this see <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6231579">Sun Bug #6231579</a>
+and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug #6178997</a>.</p>
+
+]]></Details>
+  </BugPattern>
+  <BugCode abbrev="EI">
+    <Description>Method returning array may expose internal representation</Description>
+  </BugCode>
+  <BugCode abbrev="STCAL" cweid="366">
+    <Description>Static use of type Calendar or DateFormat</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Storing reference to mutable object</Description>
+  </BugCode>
+  <BugCode abbrev="SQL">
+    <Description>Potential SQL Problem</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 19 May 2017 16:22:14 +0800" total_classes="15" referenced_classes="66" total_bugs="17" total_size="636" num_packages="3" java_version="1.8.0_131" vm_version="25.131-b11" cpu_seconds="16.63" clock_seconds="7.72" peak_mbytes="970.49" alloc_mbytes="1806.50" gc_seconds="0.13" priority_2="15" priority_1="2">
+    <FileStats path="com/eshore/datasupport/common/pojo/Gj.java" bugCount="4" size="57" bugHash="f91f4f5f8ab58bd5c7047c3516e543f4"/>
+    <FileStats path="com/eshore/datasupport/common/pojo/Yhb.java" bugCount="4" size="69" bugHash="6a4407a59e286e8d67a1d0640fc7db7f"/>
+    <FileStats path="com/eshore/datasupport/common/pojo/Yhzy.java" bugCount="2" size="33" bugHash="b38250f76f43da844cdba5b769ecac2d"/>
+    <FileStats path="com/eshore/datasupport/common/pojo/Zypz.java" bugCount="4" size="63" bugHash="21ce403273ccc76f4e250d3a702bb86f"/>
+    <FileStats path="com/eshore/datasupport/common/service/IEmailService.java" bugCount="0" size="2"/>
+    <FileStats path="com/eshore/datasupport/common/service/IGjService.java" bugCount="0" size="3"/>
+    <FileStats path="com/eshore/datasupport/common/service/IYhbService.java" bugCount="0" size="8"/>
+    <FileStats path="com/eshore/datasupport/common/service/IYhzyService.java" bugCount="0" size="3"/>
+    <FileStats path="com/eshore/datasupport/common/service/IZypzService.java" bugCount="0" size="7"/>
+    <FileStats path="com/eshore/datasupport/common/util/Conts.java" bugCount="1" size="26" bugHash="d9876d3b8584aa1220c37fadc845b91e"/>
+    <FileStats path="com/eshore/datasupport/common/util/DataSourceEnum.java" bugCount="0" size="27"/>
+    <FileStats path="com/eshore/datasupport/common/util/DataSourceUtil.java" bugCount="2" size="169" bugHash="13d8f236cb73119300b428f9ee3edaaf"/>
+    <FileStats path="com/eshore/datasupport/common/util/DateUtils.java" bugCount="0" size="127"/>
+    <FileStats path="com/eshore/datasupport/common/util/SecurityFilter.java" bugCount="0" size="33"/>
+    <FileStats path="com/eshore/datasupport/common/util/SessionUtil.java" bugCount="0" size="9"/>
+    <PackageStats package="com.eshore.datasupport.common.pojo" total_bugs="14" total_types="4" total_size="222" priority_2="14">
+      <ClassStats class="com.eshore.datasupport.common.pojo.Gj" sourceFile="Gj.java" interface="false" size="57" bugs="4" priority_2="4"/>
+      <ClassStats class="com.eshore.datasupport.common.pojo.Yhb" sourceFile="Yhb.java" interface="false" size="69" bugs="4" priority_2="4"/>
+      <ClassStats class="com.eshore.datasupport.common.pojo.Yhzy" sourceFile="Yhzy.java" interface="false" size="33" bugs="2" priority_2="2"/>
+      <ClassStats class="com.eshore.datasupport.common.pojo.Zypz" sourceFile="Zypz.java" interface="false" size="63" bugs="4" priority_2="4"/>
+    </PackageStats>
+    <PackageStats package="com.eshore.datasupport.common.service" total_bugs="0" total_types="5" total_size="23">
+      <ClassStats class="com.eshore.datasupport.common.service.IEmailService" sourceFile="IEmailService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.service.IGjService" sourceFile="IGjService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.service.IYhbService" sourceFile="IYhbService.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.service.IYhzyService" sourceFile="IYhzyService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.service.IZypzService" sourceFile="IZypzService.java" interface="true" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.eshore.datasupport.common.util" total_bugs="3" total_types="6" total_size="391" priority_2="1" priority_1="2">
+      <ClassStats class="com.eshore.datasupport.common.util.Conts" sourceFile="Conts.java" interface="false" size="26" bugs="1" priority_2="1"/>
+      <ClassStats class="com.eshore.datasupport.common.util.DataSourceEnum" sourceFile="DataSourceEnum.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.util.DataSourceUtil" sourceFile="DataSourceUtil.java" interface="false" size="169" bugs="2" priority_1="2"/>
+      <ClassStats class="com.eshore.datasupport.common.util.DateUtils" sourceFile="DateUtils.java" interface="false" size="127" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.util.SecurityFilter" sourceFile="SecurityFilter.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.eshore.datasupport.common.util.SessionUtil" sourceFile="SessionUtil.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1408" invocations="498" avgMicrosecondsPerInvocation="2828" maxMicrosecondsPerInvocation="319175" standardDeviationMircosecondsPerInvocation="20166"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="526" invocations="493" avgMicrosecondsPerInvocation="1067" maxMicrosecondsPerInvocation="134936" standardDeviationMircosecondsPerInvocation="6705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="148" invocations="66" avgMicrosecondsPerInvocation="2250" maxMicrosecondsPerInvocation="35785" standardDeviationMircosecondsPerInvocation="5283"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="130" invocations="276" avgMicrosecondsPerInvocation="473" maxMicrosecondsPerInvocation="6049" standardDeviationMircosecondsPerInvocation="787"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="112" invocations="66" avgMicrosecondsPerInvocation="1708" maxMicrosecondsPerInvocation="24450" standardDeviationMircosecondsPerInvocation="3894"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="103" invocations="112" avgMicrosecondsPerInvocation="927" maxMicrosecondsPerInvocation="29791" standardDeviationMircosecondsPerInvocation="3402"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="88" invocations="112" avgMicrosecondsPerInvocation="791" maxMicrosecondsPerInvocation="26635" standardDeviationMircosecondsPerInvocation="3162"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="85" invocations="130" avgMicrosecondsPerInvocation="656" maxMicrosecondsPerInvocation="65830" standardDeviationMircosecondsPerInvocation="5746"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="84" invocations="112" avgMicrosecondsPerInvocation="754" maxMicrosecondsPerInvocation="27110" standardDeviationMircosecondsPerInvocation="3118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="83" invocations="15" avgMicrosecondsPerInvocation="5590" maxMicrosecondsPerInvocation="74314" standardDeviationMircosecondsPerInvocation="18389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="78" invocations="112" avgMicrosecondsPerInvocation="701" maxMicrosecondsPerInvocation="22987" standardDeviationMircosecondsPerInvocation="2311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="75" invocations="112" avgMicrosecondsPerInvocation="670" maxMicrosecondsPerInvocation="25154" standardDeviationMircosecondsPerInvocation="2585"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="73" invocations="112" avgMicrosecondsPerInvocation="655" maxMicrosecondsPerInvocation="26447" standardDeviationMircosecondsPerInvocation="2632"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="67" invocations="66" avgMicrosecondsPerInvocation="1023" maxMicrosecondsPerInvocation="41047" standardDeviationMircosecondsPerInvocation="5055"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation" totalMilliseconds="63" invocations="15" avgMicrosecondsPerInvocation="4262" maxMicrosecondsPerInvocation="62907" standardDeviationMircosecondsPerInvocation="15673"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="55" invocations="98" avgMicrosecondsPerInvocation="569" maxMicrosecondsPerInvocation="27418" standardDeviationMircosecondsPerInvocation="2812"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="48" invocations="459" avgMicrosecondsPerInvocation="105" maxMicrosecondsPerInvocation="4563" standardDeviationMircosecondsPerInvocation="284"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

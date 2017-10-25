@@ -1,0 +1,60 @@
+
+
+
+.up-caption-infor {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.u-imglist-animate {
+    position: relative;
+    overflow:hidden;
+    &:hover{
+        &:after{
+        @include scale(1,1);
+        }
+        h3{
+            top:0;
+           
+        }
+    }
+    &:after{
+    	content:'';
+    	position:absolute;
+    		width:100%;
+    		height:100%;
+    		background-color:rgba(0,0,0,0.5);
+    		left:0;
+    		top:0;
+    		@include scale(0,0);
+    		@include transition(all 0.4s);
+    }
+    h3{
+        position:absolute;
+        width:100%;
+        height:100%;
+        left:0;
+        top:-100%;
+        color:#fff;       
+        text-align:center;
+        z-index: 1;
+        margin:0;
+        span{
+            display:inline-block;
+            line-height: $line-height-base;
+        }
+        @include transition(all 0.4s);
+        &:after{
+            content:'';
+            display:inline-block;
+            height:100%;
+            width:0;
+            vertical-align:middle;
+        }
+       
+    }
+    
+   
+}

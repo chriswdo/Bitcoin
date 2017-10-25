@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+  <appender name="ROLLING_FILE"
+  		class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+    <File>${catalina.home}/logs/ds_web_info.log</File>
+    <Append>true</Append>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+    </encoder>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>INFO</level>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+      <maxIndex>6</maxIndex>
+      <FileNamePattern>${catalina.home}/logs/ds_web_info%i.log</FileNamePattern>
+    </rollingPolicy>
+    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      <MaxFileSize>10240KB</MaxFileSize>
+    </triggeringPolicy>
+  </appender>
+  <appender name="DAILY_ROLLING_FILE"
+  		 class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <!--See http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+    <!--and http://logback.qos.ch/manual/appenders.html#TimeBasedRollingPolicy-->
+    <!--for further documentation-->
+    <File>${catalina.home}/logs/ds_web_error.log</File>
+    <Append>true</Append>
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+    </encoder>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>ERROR</level>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${catalina.home}/logs/ds_web_error.%d{yyyy-MM-dd }.log</fileNamePattern>
+    </rollingPolicy>
+  </appender>
+  <root level="INFO">
+    <appender-ref ref="ROLLING_FILE"/>
+    <appender-ref ref="DAILY_ROLLING_FILE"/>
+  </root>
+</configuration>
