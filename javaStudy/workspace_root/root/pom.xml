@@ -28,6 +28,7 @@
     <module>cleancode</module>
     <module>java8</module>
     <module>algorithm</module>
+    <module>thread</module>
   </modules>
   
 </project>
