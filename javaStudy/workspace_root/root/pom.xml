@@ -29,6 +29,8 @@
     <module>java8</module>
     <module>algorithm</module>
     <module>thread</module>
+    <module>websocket</module>
+    <module>spring</module>
   </modules>
   
 </project>
